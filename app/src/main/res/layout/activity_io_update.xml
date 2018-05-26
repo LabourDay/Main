@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加出入库"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_weight="0.06" />
+
+    <TableLayout
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="编号" />
+
+            <EditText
+                android:id="@+id/io_add_id"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="品名" />
+
+            <EditText
+                android:id="@+id/io_add_name"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="类型" />
+
+            <RadioGroup
+                android:id="@+id/io_add_type"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/out_io"
+                    android:text="出库"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <RadioButton
+                    android:id="@+id/in_io"
+                    android:text="入库"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="数量" />
+
+            <EditText
+                android:id="@+id/io_add_amount"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="时间" />
+
+            <EditText
+                android:id="@+id/io_add_time"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+    android:id="@+id/io_add_btn"
+    android:layout_width="149dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="确定" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<TextView
+		android:id="@+id/msg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/message"
+		android:textSize="26sp"
+		android:gravity="center"
+		android:background="#00ccff"/>
+	<EditText
+		android:id="@+id/key"
+		android:layout_width="400dp"
+		android:layout_height="wrap_content"
+		android:hint="@string/key"
+		android:layout_below="@id/msg"
+		android:layout_toLeftOf="@+id/find"
+		android:layout_toStartOf="@+id/find" />
+
+	<ListView
+		android:layout_below="@id/key"
+		android:id="@+id/datalist"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/add" />
+
+
+	<Button
+		android:id="@+id/add"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:text="@string/add_goods"/>
+
+	<Button
+		android:id="@+id/find"
+		android:layout_width="80dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignTop="@+id/key"
+		android:text="@string/find"
+		android:layout_above="@+id/datalist" />
+
+</RelativeLayout>

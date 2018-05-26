@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Main</string>
+    <string name="addgoods">添加物品</string>
+    <string name="message">物品信息表</string>
+    <string name="update">更新物品</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="g_id">物品编号:</string>
+    <string name="g_name">物品名称:</string>
+    <string name="g_unit">计量单位:</string>
+    <string name="sto_id">仓库编号:</string>
+    <string name="g_num">物品数量:</string>
+    <string name="g_price">计划单价:</string>
+    <string name="add_goods">添加物品</string>
+    <string name="add_id_hint">请输入物品id</string>
+    <string name="add_name_hint">请输入物品名称</string>
+    <string name="add_unit_hint">请输入物品计量单位</string>
+    <string name="add_stoid_hint">请输入仓库编号</string>
+    <string name="add_num_hint">请输入物品数量</string>
+    <string name="add_price_hint">请输入物品计划单价</string>
+    <string name="add_submit">提交</string>
+    <string name="find">搜索</string>
+    <string name="key">请输入关键字</string>
+    <string name="result">查找结果</string>
+    <string name="back">返回</string>
+
+    <string name="sto_message">仓库信息表</string>
+    <string name="sto_update">更新仓库信息</string>
+    <string name="sto_name">仓库名称:</string>
+    <string name="sto_type">仓库类型:</string>
+    <string name="sto_money">仓库金额:</string>
+    <string name="sto_addr">仓库地址:</string>
+    <string name="add_storage">添加仓库信息</string>
+    <string name="sto_add_id_hint">请输入仓库编号</string>
+    <string name="sto_add_name_hint">请输入仓库名称</string>
+    <string name="sto_add_type_hint">请输入仓库类型</string>
+    <string name="sto_add_money_hint">请输入仓库金额</string>
+    <string name="sto_add_addr_hint">请输入仓库地址</string>
+    <string name="sto_add_submit">提交</string>
+    <string name="sto_find">搜索</string>
+    <string name="sto_key">请输入仓库编号</string>
+    <string name="sto_result">查找结果</string>
+
+    <string name="add_yuangong">添加员工信息</string>
+    <string name="yuangong_message">员工信息表</string>
+    <string name="yuangong_update">更新员工信息</string>
+
+    <string name="w_id">员工编号:</string>
+    <string name="w_username">用户名:</string>
+    <string name="w_password">密码:</string>
+    <string name="w_truename">真实姓名:</string>
+    <string name="w_tel">手机号码:</string>
+    <string name="w_mail">邮箱:</string>
+    <string name="l_num">请假次数:</string>
+
+    <string name="add_yuangongxinxi">添加员工信息</string>
+
+    <string name="add_yuan_hint">请输入员工id</string>
+    <string name="add_username_hint">请输入用户名</string>
+    <string name="add_password_hint">请输入密码</string>
+    <string name="add_truename_hint">请输入真实姓名</string>
+    <string name="add_tel_hint">请输入手机号码</string>
+    <string name="add_mail_hint">请输入邮箱</string>
+    <string name="add_l_num_hint">请输入请假次数</string>
+    <string name="admin">管理员</string>
+    <string name="normal">普通员工</string>
+</resources>

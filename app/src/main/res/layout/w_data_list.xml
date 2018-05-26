@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<TableRow>
+		<!--前台显示-->
+	    <TextView 
+	        android:gravity="center"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/w_id"/>
+
+		<!--提取后台数据-->
+		<TextView 
+			android:id="@+id/_id"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+
+		<!--前台显示-->
+		<TextView 
+		    android:gravity="center"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:text="@string/w_username"/>
+
+		<!--提取后台数据-->
+		<TextView 
+			android:id="@+id/_username"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<TableRow>
+		<!--前台显示-->
+	    <TextView 
+	        android:gravity="center"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/w_password"/>
+
+		<!--提取后台数据-->
+		<TextView 
+			android:id="@+id/_password"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+
+		<!--前台显示-->
+		<TextView 
+		    android:gravity="center"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:text="@string/w_truename"/>
+
+		<!--提取后台数据-->
+		<TextView 
+			android:id="@+id/_truename"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<TableRow>
+		<!--前台显示-->
+	    <TextView 
+	        android:gravity="center"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/w_tel"/>
+
+		<!--提取后台数据-->
+		<TextView 
+			android:id="@+id/_tel"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+
+		<!--前台显示-->
+		<TextView 
+		    android:gravity="center"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:text="@string/w_mail"/>
+		<!--提取后台数据-->
+		<TextView 
+			android:id="@+id/_mail"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+	</TableRow>
+	<TableRow>
+		<!--前台显示-->
+		<TextView
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="@string/l_num"/>
+		<!--提取后台数据-->
+		<TextView
+			android:id="@+id/_num"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+	</TableRow>
+
+
+
+</TableLayout>

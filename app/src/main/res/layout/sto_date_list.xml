@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<TableRow>
+	    <TextView 
+	        android:gravity="center"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sto_id"/>
+	 
+		<TextView 
+			android:id="@+id/_stoid"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+		
+		<TextView 
+		    android:gravity="center"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:text="@string/sto_name"/>
+		
+		<TextView 
+			android:id="@+id/_stoname"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<TableRow>
+	    <TextView 
+	        android:gravity="center"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sto_type"/>
+	    
+		<TextView 
+			android:id="@+id/_stotype"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+		
+		<TextView 
+		    android:gravity="center"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:text="@string/sto_money"/>
+		<TextView 
+			android:id="@+id/_stomoney"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<TableRow>
+	    <TextView 
+	        android:gravity="center"
+	        android:layout_weight="2"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sto_addr"/>
+	    
+		<TextView 
+			android:id="@+id/_stoaddr"
+			android:gravity="center"
+			android:layout_weight="9"
+			android:layout_height="wrap_content" />
+		
+
+	</TableRow>
+</TableLayout>

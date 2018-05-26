@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:textSize="30px"
+        android:gravity="center"
+        android:background="#00ccff"/>
+    <TableRow
+        android:layout_marginTop="30px">
+
+        <!--android:text="@string/g_id前台显示用的id-->
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_id_hint"/>
+
+        <!--下面第一行是获取的id号（key值），用于传到后台使用-->
+        <EditText
+            android:id="@+id/g_update_id"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:editable="false"
+            android:background="#ffffff"
+            android:lines="1"/>
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_username_hint"/>
+
+        <!--下面第一行是（key值），用于传到后台使用-->
+        <EditText
+            android:id="@+id/g_update_username"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"/>
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_password_hint"/>
+
+        <!--下面第一行是（key值），用于传到后台使用-->
+        <EditText
+            android:id="@+id/g_update_password"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"/>
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_truename_hint"/>
+
+        <!--下面第一行是（key值），用于传到后台使用-->
+        <EditText
+            android:id="@+id/g_update_truename"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"/>
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_tel_hint"/>
+
+        <!--下面第一行是（key值），用于传到后台使用-->
+        <EditText
+            android:id="@+id/g_update_tel"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"/>
+    </TableRow>
+
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_mail_hint"/>
+
+        <!--下面第一行是（key值），用于传到后台使用-->
+        <EditText
+            android:id="@+id/g_update_mail"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"/>
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_l_num_hint"/>
+
+        <!--下面第一行是（key值），用于传到后台使用-->
+        <EditText
+            android:id="@+id/g_update_num"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_submit"/>
+
+
+</TableLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--安卓端查询功能_主页显示-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="员工信息"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#00ccff"/>
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/key"
+        android:layout_below="@id/msg"/>
+
+    <ListView
+        android:layout_below="@id/key"
+        android:id="@+id/datalist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="添加员工"/>
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/key"
+        android:text="@string/find" />
+
+</RelativeLayout>

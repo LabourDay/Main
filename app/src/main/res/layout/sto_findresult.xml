@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/sto_f_msg" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sto_result"
+        android:textSize="30px"
+        android:gravity="center"
+        android:background="#00ccff"/>
+   
+    <ListView
+        android:layout_below="@id/sto_f_msg"
+		android:id="@+id/sto_f_datalist"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="出入库信息"
+        android:textSize="26sp" />
+
+    <TableLayout
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/io_id"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="编号"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/io_name"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="品名"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/io_type"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="类型"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/io_num"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="数量"
+                android:textSize="20sp" />
+<!--
+            <TextView
+                android:id="@+id/io_time"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="时间"
+                android:textSize="20sp" />-->
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/io_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:orientation="vertical" >
+    <TableRow
+        android:layout_marginTop="30px">
+        <!--读数据库中的数据显示出来-->
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/w_id"/>
+
+        <!--将前台输入的要新增的数据发送到后台 第一个是传过去的ID -->
+        <EditText
+            android:id="@+id/g_add_id"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/add_id_hint"
+            android:lines="1"/>
+    </TableRow>
+
+    <!--读数据库中的数据显示出来-->
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/w_username"/>
+
+        <!--将前台输入的要新增的数据发送到后台-->
+        <EditText
+            android:id="@+id/g_add_username"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/add_username_hint"
+            android:lines="1"/>
+    </TableRow>
+
+    <!--读数据库中的数据显示出来-->
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/w_password"/>
+
+        <!--将前台输入的要新增的数据发送到后台-->
+        <EditText
+            android:id="@+id/g_add_password"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/add_password_hint"
+            android:lines="1"/>
+    </TableRow>
+
+    <!--读数据库中的数据显示出来-->
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/w_truename"/>
+
+        <!--将前台输入的要新增的数据发送到后台-->
+        <EditText
+            android:id="@+id/g_add_truename"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/add_truename_hint"
+            android:lines="1"/>
+    </TableRow>
+
+    <!--读数据库中的数据显示出来-->
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/w_tel"/>
+
+        <!--将前台输入的要新增的数据发送到后台-->
+        <EditText
+            android:id="@+id/g_add_tel"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/add_tel_hint"
+            android:lines="1"/>
+    </TableRow>
+
+    <!--读数据库中的数据显示出来-->
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/w_mail"/>
+
+        <!--将前台输入的要新增的数据发送到后台-->
+        <EditText
+            android:id="@+id/g_add_mail"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/add_mail_hint"
+            android:lines="1"/>
+    </TableRow>
+
+    <!--读数据库中的数据显示出来-->
+    <TableRow >
+        <TextView
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/l_num"/>
+
+        <!--将前台输入的要新增的数据发送到后台-->
+        <EditText
+            android:id="@+id/g_add_l_num"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/add_l_num_hint"
+            android:lines="1"/>
+    </TableRow>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_submit"/>
+
+</TableLayout>
